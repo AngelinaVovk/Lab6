@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8455c120-3672-4700-abb2-4c43a18070f8": {
+      "ProjectGuid": "8455c120-3672-4700-abb2-4c43a18070f8",
+      "DisplayName": "Vovk.Lab6-zadanie1",
+      "ColorIndex": 0
+    },
+    "eb34ed2d-8ac5-496b-a891-1c9d3b098df5": {
+      "ProjectGuid": "eb34ed2d-8ac5-496b-a891-1c9d3b098df5",
+      "DisplayName": "Vovk.Lab6-zadanie2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
