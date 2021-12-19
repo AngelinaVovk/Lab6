@@ -19,11 +19,13 @@ namespace Vovk.Lab6
                 if (array[i] < min)
                 {
                     min = array[i];
+                    
                 }
             }
             Console.WriteLine();
             Console.WriteLine(" Меньшее: " + min);
-            array[8] = min;
+            int b = array.Length - 2;
+            array[b] = min;
             foreach (int number in array)
             {
                 Console.Write($"{number} \t");

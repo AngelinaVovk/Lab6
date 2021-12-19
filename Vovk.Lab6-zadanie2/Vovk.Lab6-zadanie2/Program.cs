@@ -5,8 +5,8 @@ namespace Vovk.Lab6
     {
         static void Main(string[] args)
         {
-            int m = 7;
-            int n = 10;
+            int m = 4;
+            int n = 5;
             int[,] matrix = new int[m, n];
             Random rand = new Random();
             for (int i = 0; i < matrix.GetLength(0); i++)
@@ -20,14 +20,23 @@ namespace Vovk.Lab6
             }
             int mult = 1;
             int sum = 0;
-            for (int j = 1; j < matrix.GetLength(1) - j; j++)
-                for (int i = 0; i < matrix.GetLength(0); i++)
-                    sum += matrix[j, i];
-            Console.WriteLine("Сумма элементов второй строки: " + sum);
-            for (int i = 0; i < matrix.GetLength(0); i++)
-                for (int j = 0; j < matrix.GetLength(1) - j -1 ; j++)
+            for (int i = 1; i < 2; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    sum += matrix[i, j];
+                }
+                Console.WriteLine("Сумма элементов второй строки равна: " + sum);
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 1; j++)
+                {
                     mult *= matrix[i, j];
-            Console.WriteLine("Произведение элементов первого столбца: " + mult);
+                }
+            }
+            Console.WriteLine("Произведение элементов первого столбца: " + mult);   
         }
     }
 }
