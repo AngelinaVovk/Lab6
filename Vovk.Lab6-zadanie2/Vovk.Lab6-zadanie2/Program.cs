@@ -29,7 +29,7 @@ namespace Vovk.Lab6
                 Console.WriteLine("Сумма элементов второй строки равна: " + sum);
             }
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < m ; i++)
             {
                 for (int j = 0; j < 1; j++)
                 {
