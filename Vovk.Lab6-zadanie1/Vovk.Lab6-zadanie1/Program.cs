@@ -26,6 +26,7 @@ namespace Vovk.Lab6
             Console.WriteLine(" Меньшее: " + min);
             int b = array.Length - 2;
             array[b] = min;
+            //перечисляет элементы коллекции и выполняет тело для каждого элемента коллекции.
             foreach (int number in array)
             {
                 Console.Write($"{number} \t");
